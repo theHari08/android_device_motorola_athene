@@ -387,4 +387,7 @@
     <!-- Enable lockscreen blur feature -->
     <!--bool name="config_uiBlurEnabled">false</bool-->
 
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently in hardware. -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
+
 </resources>

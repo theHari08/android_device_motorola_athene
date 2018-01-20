@@ -179,7 +179,10 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    libshims_ims
+    libshims_ims \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += telephony-ext
 
 # Keystore
 PRODUCT_PACKAGES += \

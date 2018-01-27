@@ -294,7 +294,6 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.rc \
     init.qcom.ril.sh \
-    init.safailnet.rc \
     ueventd.qcom.rc
 
 # RenderScript HAL

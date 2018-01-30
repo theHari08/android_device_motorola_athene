@@ -187,6 +187,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += telephony-ext
 
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0
+
 # Keystore
 PRODUCT_PACKAGES += \
     keystore.msm8952
